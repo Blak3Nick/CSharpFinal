@@ -36,7 +36,7 @@ namespace Vidly.Controllers
 
             return View(customer);
         }
-
-
     }
 }
+
+

@@ -195,6 +195,22 @@
     <Compile Include="Migrations\201703071804035_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201703071804035_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703071837300_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201703071837300_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201703071837300_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703071840095_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201703071840095_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201703071840095_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703071904070_AttemptToFix.cs" />
+    <Compile Include="Migrations\201703071904070_AttemptToFix.Designer.cs">
+      <DependentUpon>201703071904070_AttemptToFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703071908288_SetNameOfMigrationTypes.cs" />
+    <Compile Include="Migrations\201703071908288_SetNameOfMigrationTypes.Designer.cs">
+      <DependentUpon>201703071908288_SetNameOfMigrationTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -294,6 +310,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703071804035_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201703071804035_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703071837300_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201703071837300_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703071840095_AddNameToMembershipType.resx">
+      <DependentUpon>201703071840095_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703071904070_AttemptToFix.resx">
+      <DependentUpon>201703071904070_AttemptToFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703071908288_SetNameOfMigrationTypes.resx">
+      <DependentUpon>201703071908288_SetNameOfMigrationTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
